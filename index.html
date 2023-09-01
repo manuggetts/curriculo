@@ -3,36 +3,68 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Manuella</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Blog básico sobre HTML5 e CSS3</title>
 </head>
 
 <body>
 
     <header>
-        <img src="img/header/header1.jpg" alt="Descrição da imagem da header">
-        <h1>HTML5 e CSS3</h1>
+        <h1 id="title">HTML5 e CSS3</h1>
     </header>
 
     <section>
         <header>
-            <h2>
+            <h2 class="subtitle">
                 Posts
             </h2>
         </header>
     </section>
 
-    <article>
+    <article class="post">
         <header>
-            <h3>
-                Post #1
+            <h3 class="post_title">
+                A Tag &lt;h1&gt; em HTML5
             </h3>
-            <img src="img/header/header2.jpg" alt="Descrição da imagem do post">
         </header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo faucibus magna, non blandit justo
-            iaculis id. Integer sit amet justo id nisl aliquam blandit in quis velit.</p>
+
+        <div class="post-content">
+            <img src="img/post1/headingtag.png" alt="Descrição da imagem do post">
+
+            <div class="post_text">
+                <p>
+                    A tag &lt;h1&gt; é uma das mais importantes em HTML5. Ela é usada para definir o título principal de
+                    uma
+                    página ou seção.
+                </p>
+
+                <p>
+                    A importância da tag &lt;h1&gt; está relacionada à hierarquia de cabeçalhos. Ela representa o título
+                    mais importante e geralmente é seguida por &lt;h2&gt;, &lt;h3&gt;, e assim por diante, até a
+                    &lt;h6&gt;,
+                    em ordem decrescente de importância.
+                </p>
+
+                <p>
+                    Um exemplo de uso da tag &lt;h1&gt; em HTML seria:
+                </p>
+
+                <pre>
+                    <code>
+                        &lt;h1&gt;Meu Título Principal&lt;/h1&gt;
+                    </code>
+                </pre>
+
+                <p>
+                    Lembre-se de que é uma boa prática ter apenas uma tag &lt;h1&gt; por página e usá-la para
+                    representar o
+                    título mais importante da página.
+                </p>
+            </div>
+        </div>
     </article>
 
-    <footer>
+    <nav>
         <ul>
             <li>
                 <a href="http://www.linkedin.com/in/manuella-oliveira-02b369192/" target="_blank">Linkedin</a>
@@ -41,12 +73,16 @@
                 <a href="http://www.instagram.com/manuggetts/" target="_blank">Instagram</a>
             </li>
             <li>
-                <a href="mailto:#">Email</a>
+                <a href="mailto:manuggets@hotmail.com">Email</a>
             </li>
             <li>
-                <a href="#" target="_blank">GitHub</a>
+                <a href="https://github.com/manuggetts" target="_blank">GitHub</a>
             </li>
         </ul>
+    </nav>
+
+    <footer>
+        &copy; 2023 Exercício
     </footer>
 </body>
 
