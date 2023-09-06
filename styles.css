@@ -170,6 +170,126 @@ header {
     font-weight: bold;
 }
 
+.skills {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #008080;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.skills li i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #008080;
+}
+
+.markup-style, .programming-lang, .frameworks, .data-base, .version-control, .ui-ux, .productivity {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* CORES DOS ÍCONES */
+
+.skills li .fab.fa-html5 {
+    color: #E34F26;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-css3 {
+    color: #1572B6;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-js {
+    color: #F0DB4F;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-java {
+    color: #007396;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-python {
+    color: #3776AB;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-angular {
+    color: #DD1B16;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-node-js {
+    color: #8CC84B;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-bootstrap {
+    color: #563D7C;
+    font-size: 30px;
+}
+
+.skills li .fas.fa-database {
+    color: #336791;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-git {
+    color: #F05032;
+    font-size: 30px;
+}
+
+.skills li .fab.fa-github {
+    color: #333;
+    font-size: 30px;
+}
+
+.skills li .fas.fa-paint-brush {
+    color: #1890FF;
+    font-size: 30px;
+}
+
+.skills li .fas.fa-file-excel {
+    color: #217346;
+    font-size: 30px;
+}
+
+.skills li .fas.fa-file-word {
+    color: #2B579A;
+    font-size: 30px;
+}
+
+.skills li .fas.fa-file-powerpoint {
+    color: #D24726;
+    font-size: 30px;
+}
+
 footer {
     background-color: #008080;
     padding: 10px;
