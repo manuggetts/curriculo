@@ -27,6 +27,8 @@ header {
 }
 
 .experience {
+    max-width: 900px;
+    margin: auto;
     padding: 20px;
     background-color: #f7f7f7;
     text-align: center;
@@ -66,11 +68,6 @@ header {
 .job2 p:last-child,
 .job3 p:last-child {
     margin-bottom: 0;
-}
-
-.job1 p:last-child,
-.job2 p:last-child,
-.job3 p:last-child {
     font-weight: bold;
 }
 
@@ -97,4 +94,84 @@ header {
 
 .icon-link i:hover {
     color: #000;
+}
+
+.education {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.school {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.school h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #008080;
+}
+
+.school p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.school p:last-child {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.complementary-courses {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.complementary-courses h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course1, .course2, .course3, .course4 {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.course1 h3, .course2 h3, .course3 h3, .course4 h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #008080;
+}
+
+.course1 p, .course2 p, .course3 p, .course4 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.course1 p:last-child, .course2 p:last-child, .course3 p:last-child, .course4 p:last-child {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #008080;
+    padding: 10px;
+    text-align: center;
 }
